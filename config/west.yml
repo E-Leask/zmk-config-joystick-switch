@@ -10,5 +10,9 @@ manifest:
     - name: zmk
       remote: zmkfirmware
       import: app/west.yml
+    - name: zmk-analog-input-driver
+      url: https://github.com/badjeff/zmk-analog-input-driver.git
+      revision: main
+      path: modules/zmk-analog-input-driver
   self:
     path: config
