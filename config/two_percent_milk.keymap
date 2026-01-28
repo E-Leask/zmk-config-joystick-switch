@@ -7,6 +7,13 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/input_transform.h>
+
+/* Define the listener for the joystick */
+&joystick {
+    /* Base configuration: Default to Mouse Movement */
+    input-processors = <&zip_xy_scaler 1 1>; // Scale movement 1:1
+};
 
 / {
     keymap {
