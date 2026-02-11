@@ -19,10 +19,8 @@
 
     /* Define the input device (Physical Hardware) */
     joystick: joystick {
-        compatible = "zmk,input-behavior-listener";
+        compatible = "zmk,input-listener";
         device = <&joystick_split>; // Links to the split node below
-        
-        /* This listener sends data to the ZMK central input system */
     };  
 
     /* Define the analog sensor configuration */
