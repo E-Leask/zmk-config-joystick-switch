@@ -23,7 +23,6 @@
         default_layer {
             bindings = <
                 &kp X
-                &kp Z
             >;
         };
     };
