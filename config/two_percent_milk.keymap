@@ -17,14 +17,4 @@
 };
 
 / {
-    keymap {
-        compatible = "zmk,keymap";
-
-        default_layer {
-            bindings = <
-                &kp X
-                &kp Z
-            >;
-        };
-    };
 };
